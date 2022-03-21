@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+body {
+    background-color: #CBC1CB;
+}
+
+.container {
+    margin: auto;
+}
+
+.navbar {
+    top:0;
+    position: sticky;
+    padding: 5px;
+    background-color: #9E8D90;
+}
+
+.navbar img {
+    float: left;
+    margin-left: 15px;
+    width:50px;
+}
+
+.navbar h2 {
+    float: left;
+    margin: 10px;
+    font-family: 'Ramaraja', serif;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 20px 15px;
+}
+.navbar a{
+    background-color: #AAAFC4;
+    color: #504447;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    cursor:pointer;
+    background-color: #9E8D90;
+    padding: 6px;
+    border: 3px solid #AAAFC4;
+}
+
+.button {
+    border: 5px solid #504447;
+    background-color: #AAAFC4;
+    border-radius: 15px;
+    padding: 15px 15px;
+    width: 29%;
+    margin: 7% 2%;
+    text-align: center;
+    float: left;
+    opacity: 80%;
+}
+
+.button img {
+    width: 50%;
+}
+
+.container a {
+    font-weight: bold;
+    color:  black;
+}
+.button:hover {
+    opacity: 100%;
+}
+
+.copyright2 {
+    float:inline-end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: "Open Sans";
+}
+
+.copyright {
+    position:absolute;
+    width: 100%;
+    height: 20%;
+    z-index: -1;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #504447;
+}
+
+.copyright p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.subheading {
+    font-weight: bold;
+    color: #504447;
+    margin: 30px 10%;
+}
+table {
+    background-color: white;
+    width: 90%;
+    margin:auto;
+    border-collapse: collapse;
+}
+th {
+    text-decoration: underline;
+}
+table, td, th {
+    border: 1px solid #504447;
+    padding: 7px;
+    text-align: center;
+}
+
+.transact {
+    margin: auto;
+    background-color: #AAAFC4;
+    border: 2px solid #504447;
+    padding: 4px 12px;
+    border-radius: 12px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.transact:hover {
+    color: white;
+}
+
+.input {
+    border: 5px solid #504447;
+    background-color: #AAAFC4;
+    border-radius: 15px;
+    width: 60%;
+    margin: 25px auto;  
+    padding: 35px 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input input, select {
+    padding: 7px;
+    width:100%;
+}
+
+.input p{
+    font-weight: bold;
+    color: #504447;
+}
+
+.submit {
+    margin: 30px auto;
+    width:fit-content;
+}
+
+.submit input {
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.card {
+    margin:70px;
+    padding: 50px;
+    border: 1px solid black;
+}
+.card-text {
+    font-weight: 100;
+}
+
+.card-subtitle {
+    font-weight: 100;
+    font-size: small;
+    margin-bottom: 25px;
+}
+
+.mess {
+    margin-top: 20px;
+}
